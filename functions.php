@@ -15,7 +15,7 @@ function bbloomer_free_shipping_cart_notice() {
       $notice = sprintf( $added_text );
       echo '<h4>' . $notice . '</h4>';
       //Progress bar
-      echo '<div class="progressbar" style="max-width: 400px;background:#d2d2d2;"><span style="width: ' . $freeShipping . '%; background:#529b16;height: 10px;display:block;">' . $freeShipping . '%</span></div>';
+      echo '<div class="progressbar" style="max-width: 400px;background:#d2d2d2;"><span style="width: ' . $freeShipping . '%; background:#529b16;height: 10px;display:block;"></span></div>';
    }
    
    
